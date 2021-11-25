@@ -1,0 +1,255 @@
+body{
+    background-color: #3D087B;
+}
+.clock
+{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.setime
+{
+    background-color: white;
+    border-radius: 8px;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 20px;
+    position: relative;
+}
+.image
+{
+    margin-top: 5px;
+}
+.bordr
+{
+    border-left: 1px solid gray;
+    height: 50px;
+    margin-left: 16px;
+}
+.text
+{
+    color:#3D087BDE;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.b 
+{
+    position: absolute;
+    top: 30px;
+    left: 63px;
+}
+.b1{
+    position: absolute;
+    top: 120px;
+    left: 63px;
+}
+.b2
+{
+    position: absolute;
+    top: 202px;
+    left: 63px
+}
+select
+{
+    width: 160px;
+    color: #3D087B;
+    margin-left: 180px;
+    position: absolute;
+    margin-top: 10px;
+}
+#set
+{
+    background: linear-gradient(to right, #6d54ec,#CB52F8,#FC5EFF,#F1A7C5);
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+    /* height: 17px; */
+    border: 0px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#set:hover{
+    background:linear-gradient(to left, #6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+.box
+{
+    background-color:#FFFFFF;
+    height: 30px;
+    width: 337px;
+    border-radius: 8px;
+    opacity: 0.22;
+    position: absolute;
+    /* right: 388px; */
+    top: 70px;
+    left: 63px;
+}
+.box1
+{
+    background-color:#FFFFFF;
+    height: 30px;
+    width: 390px;
+    border-radius: 8px;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+    opacity: 0.71;
+}
+#box2
+{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 450px;
+    border-radius: 8px;
+    position: absolute;
+    /* top: 50px; */
+    /* left: 660px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.time
+{
+    font-size: x-large;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    color: #8A11BF;
+
+}
+.hour
+{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color:#f1a7c577;
+    margin: 10px;
+    font-family: cursive;
+    border-radius: 3px;
+    color: #8A11BF;
+}
+#h
+{
+    font-size: 20px;
+    margin-top: 4px;
+
+}
+.min{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-family: cursive;
+    background-color:#f1a7c577;
+    margin: 10px;
+    border-radius: 3px;
+    color: #8A11BF;
+
+}
+#m
+{
+    font-size: 20px;
+    margin-top: 4px;
+}
+.sec
+{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #f1a7c577;
+    margin: 10px;
+    font-family: cursive;
+    border-radius: 3px;
+    color: #8A11BF;
+}
+#s
+{
+    font-size: 20px;
+    margin-top: 4px;
+    
+}
+.session
+{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    /* background-color:#f1a7c577 ; */
+    margin: 10px;
+    background: linear-gradient(to bottom right,#CB52F8,#FC5EFF);
+    border-radius: 3px;
+    color: white;
+}
+#se
+{   
+    font-size: 30px;
+    margin-top: 14px;
+    font-family: sans-serif;
+
+}
+#message
+{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 433px;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
+    padding: 5px;
+
+    
+}
+#child
+{
+    font-family: sans-serif;
+    color:white;
+}
+.child1
+{
+    font-family: sans-serif;
+    color:white;
+}
+.child2
+{
+    font-family: sans-serif;
+    color:white;
+}
+.dot
+{
+    font-size: 50px;
+    margin-top: 5px;
+}
+#parent
+{
+    /* height: 400px; */
+    width: 450px;
+    position: relative;
+    left: 650px;
+    bottom: 410px;
+}
+#parent1
+{
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    border-radius: 10px;
+    position: absolute;
+    top: 125px;
+}
+#text
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #8A11BF;
+}
+#image
+{
+    margin-left: 100px;
+    margin-top: 50px;
+   
+}
